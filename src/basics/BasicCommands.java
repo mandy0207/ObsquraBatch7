@@ -14,10 +14,21 @@ public class BasicCommands {
 		//will open a URL
 		driver.get("https://www.flipkart.com/");
 		
+		//to grabTitle of page
+		String title=driver.getTitle();
+		System.out.println(title);
+	
+		//to grab current URL
+		System.out.println(driver.getCurrentUrl());
+		
+		//to navigate in forward direction
+		driver.navigate().back();
+		
+		//to navigate in back direction
+		driver.navigate().forward();
 		
 		
-		
-		
+		driver.close();
 		
 		
 		
