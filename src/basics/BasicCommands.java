@@ -27,9 +27,11 @@ public class BasicCommands {
 		//to navigate in back direction
 		driver.navigate().forward();
 		
+		//will close current window
+		//driver.close();
 		
-		driver.close();
-		
+		//close entire browser
+		driver.quit();
 		
 		
 	}
