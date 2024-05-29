@@ -9,7 +9,7 @@ public class MultipleBrowsers {
 
 	public static void main(String[] args) {
 	
-		String browserName= "CHROME";
+		String browserName= "chrome";
 		WebDriver driver= null;
 		
 		if(browserName.equalsIgnoreCase("Chrome")) {
@@ -24,8 +24,6 @@ public class MultipleBrowsers {
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
 		driver.quit();
-		
-
 	}
 
 }
