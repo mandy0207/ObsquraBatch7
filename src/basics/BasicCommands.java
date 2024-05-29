@@ -31,8 +31,7 @@ public class BasicCommands {
 		//driver.close();
 		
 		//close entire browser
-		driver.quit();
-		
-		
+		 driver.quit();
+			
 	}
 }
