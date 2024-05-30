@@ -25,7 +25,7 @@ public class BasicLocators {
 		driver.findElement(By.name("password")).sendKeys("secret_sauce");
 		driver.findElement(By.className("submit-button")).click();
 		driver.findElement(By.id("react-burger-menu-btn")).click();
-		
+
 		Thread.sleep(2000);
 		driver.findElement(By.linkText("About")).click();
 		driver.navigate().back();
