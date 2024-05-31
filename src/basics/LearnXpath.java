@@ -12,8 +12,7 @@ public class LearnXpath {
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
 		
-		
-		
+	
 		/**
 		 * Syntaxes for Xpath
 		 * 1. //tagname[@attribute='value'] or //*[@attribute='value']
@@ -23,7 +22,8 @@ public class LearnXpath {
 		 * 5. //*[contains(text(),'Substring')]   --> using text here 
 		 * 6. //*[contains(@attribute,'substring value')]
 		 */
-		driver.findElement(By.xpath("//a[@class='ico-login']")).click();
+		WebElement loginBtn=driver.findElement(By.xpath("//a[@class='ico-login']"));
+		loginBtn.click();
 		driver.findElement(By.xpath("//*[@class='email']")).sendKeys("obsqura24@gmail.com");
 		driver.findElement(By.xpath("//*[@id='Password']")).sendKeys("mypassword");
 		driver.findElement(By.xpath("//div[@class='buttons']//input[@value='Log in']")).click();
