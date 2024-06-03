@@ -19,7 +19,7 @@ public class FindElements {
 		driver.findElement(By.name("password")).sendKeys("secret_sauce");
 		driver.findElement(By.className("submit-button")).click();
 		
-		//findelements return list of webelements
+		//findelements returns list of webelements
 		
 		List<WebElement> addToCartBtns = driver.findElements(By.className("btn_inventory"));
 		System.out.println(addToCartBtns.size());
