@@ -21,13 +21,15 @@ public class DynamicDropdown {
 		List<WebElement> states = driver.findElements(By.xpath("//*[@class='select2-results__options']/li"));
 		System.out.println(states.size());
 		
-		for(int i =0;i<states.size();i++) {
-			if(states.get(i).getText().equalsIgnoreCase("New York")) {
-				states.get(i).click();
-				
-			}
-				
-		}
+		/*
+		 * for(int i =0;i<states.size();i++) {
+		 * if(states.get(i).getText().equalsIgnoreCase("New York")) {
+		 * states.get(i).click();
+		 * }
+		 * 
+		 * }
+		 */
+		
 		
 		for(WebElement state : states) {
 			if(state.getText().equalsIgnoreCase("new jersey")) {
