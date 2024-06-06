@@ -19,7 +19,6 @@ public class LearnCssSelector {
 		 * 5. .classname child:nth-child(index)  (for travelling to next child use space)
 		 * 6. [attribute*='substring value'] 
 		 * 
-		 * 
 		 */
 		driver.findElement(By.cssSelector(".ico-login")).click();
 		driver.findElement(By.cssSelector("#Email")).sendKeys("obsqura24@gmail.com");
