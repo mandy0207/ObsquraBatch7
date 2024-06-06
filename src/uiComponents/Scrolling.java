@@ -18,6 +18,8 @@ public class Scrolling {
 		//scrollByValue(300);
 		WebElement desiredElement = driver.findElement(By.cssSelector("[class='totalAmount']"));
 		scrollToElement(desiredElement);
+		scrollToBottomofPage() ;
+		
 		driver.quit();
 
 	}
@@ -32,6 +34,11 @@ public class Scrolling {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		// scroll up to some y cordinate
 		js.executeScript("window.scrollBy(0,300);");
+	}
+	
+	public static void scrollToBottomofPage() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight);");
 	}
 
 }
