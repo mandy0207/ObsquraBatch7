@@ -18,9 +18,11 @@ public class LearnFrames {
 
 		WebElement desiredElement = driver.findElement(By.cssSelector(".totalAmount"));
 		scrollToElement(desiredElement);
-		/**
-		 * switch top frame by following ways 1. By id or name 2. By index 3. By
-		 * WebElement
+		/*
+		 * switch to frame by following ways 
+		 * 1. By id or name 
+		 * 2. By index 
+		 * 3. By WebElement
 		 * 
 		 */
 
