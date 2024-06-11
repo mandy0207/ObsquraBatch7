@@ -26,10 +26,11 @@ public class UploadFile {
 		driver.quit();
 	}
 	
+	
+	
 	public static void uploadFile(String fileToUpload) throws AWTException, InterruptedException {
 		StringSelection ss = new StringSelection(fileToUpload);
 	    Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
-
 	    Thread.sleep(1000);
 	     //imitate mouse events like ENTER, CTRL+C, CTRL+V
 	     Robot robot = new Robot();
