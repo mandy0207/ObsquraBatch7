@@ -10,8 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class DynamicDropdown {
 
 	public static void main(String[] args) {
-		
-
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://selenium.qabible.in/jquery-select.php");
@@ -40,5 +38,7 @@ public class DynamicDropdown {
 		
 
 	}
+	
+
 
 }
