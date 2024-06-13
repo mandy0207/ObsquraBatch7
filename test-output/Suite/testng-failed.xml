@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="WEBTEST(failed)">
+    <classes>
+      <class name="learnTestNG.WebTesting">
+        <methods>
+          <include name="firstWebTest"/>
+          <include name="beforeWebTest"/>
+          <include name="afterWebTest"/>
+        </methods>
+      </class> <!-- learnTestNG.WebTesting -->
+    </classes>
+  </test> <!-- WEBTEST(failed) -->
+</suite> <!-- Failed suite [Suite] -->

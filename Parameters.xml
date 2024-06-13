@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="WEBTEST">
+	  <parameter name="UserName" value="Anjali"></parameter>
+	  <parameter name="Password" value="12345678"></parameter>
+    <classes>
+      <class name="learnTestNG.WebTesting"/>
+    </classes>
+  </test>
+  
+    <test name="MOBILETEST">
+    <classes>
+      <class name="learnTestNG.MobileTesting"/>
+    </classes>
+  </test>
+  
+</suite> 

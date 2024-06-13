@@ -1,9 +1,9 @@
 package learnTestNG;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class WebTesting {
@@ -18,24 +18,27 @@ public class WebTesting {
 	 * 7. BeforeMethod will execute before every test case present inside class
 	 * 8. After test case will execute after every test case present inside class.
 	 * 9. Before Class will execute before all test cases at a class level
+	 * 10. After, Before suite - 
 	 * 
 	 *
 	 */
 	
 
-	@Test
-	public void firstWebTest() {
+	@Test(groups="Smoke")
+	@Parameters({"UserName","Password"})
+	public void firstWebTest( @Optional String userName, @Optional String password) {
 		System.out.println("I am inside first web test case");
+		System.out.println(userName +  " : "+ password);
 	} 
 	
 	
 	
-	@Test(priority=1)
+	@Test(priority=1, groups="Regression")
 	public void secondWebTest() {
 		System.out.println("I am inside second web test case");
 	} 
 	
-	
+
 	@BeforeTest
 	public void beforeWebTest() {
 		System.out.println("I am in before web test");
