@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-14T19:28:33 IST" name="Default suite" finished-at="2024-06-14T19:28:37 IST" duration-ms="4727">
+  <suite started-at="2024-06-14T19:50:17 IST" name="Default suite" finished-at="2024-06-14T19:50:17 IST" duration-ms="143">
     <groups>
     </groups>
-    <test started-at="2024-06-14T19:28:33 IST" name="Default test" finished-at="2024-06-14T19:28:37 IST" duration-ms="4727">
-      <class name="uiComponents.RealTest">
-        <test-method signature="myrealTest()[pri:0, instance:uiComponents.RealTest@9f116cc]" started-at="2024-06-14T19:28:33 IST" name="myrealTest" finished-at="2024-06-14T19:28:37 IST" duration-ms="4688" status="PASS">
+    <test started-at="2024-06-14T19:50:17 IST" name="Default test" finished-at="2024-06-14T19:50:17 IST" duration-ms="143">
+      <class name="uiComponents.LearnScreenshot">
+        <test-method signature="getCurrentDateTime()[pri:0, instance:uiComponents.LearnScreenshot@4a94ee4]" started-at="2024-06-14T19:50:17 IST" name="getCurrentDateTime" finished-at="2024-06-14T19:50:17 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myrealTest -->
-      </class> <!-- uiComponents.RealTest -->
+        </test-method> <!-- getCurrentDateTime -->
+      </class> <!-- uiComponents.LearnScreenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
