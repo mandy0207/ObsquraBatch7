@@ -57,11 +57,11 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 13 19:30:54 IST 2024</td>
+<td>Started on:</td><td>Thu Jun 27 19:55:24 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (97 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (56 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>Smoke </td>
+<td>Included groups:</td><td></td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
@@ -76,23 +76,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='learnTestNG.WebTesting.firstWebTest()'><b>firstWebTest</b><br>Test class: learnTestNG.WebTesting</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;UserName&apos; is required by @Test on method firstWebTest but has not been marked @Optional or defined
-in C:\Users\InfoBahn\eclipse-workspace\ObsquraSelenium\Smoke.xml
+<td title='Listeners.ApiTests.mytest2API()'><b>mytest2API</b><br>Test class: Listeners.ApiTests</td>
+<td><div><pre>java.lang.AssertionError: null
+	at Listeners.ApiTests.mytest2API(ApiTests.java:16)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace510063093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace510063093'><pre>org.testng.TestNGException: 
-Parameter &apos;UserName&apos; is required by @Test on method firstWebTest but has not been marked @Optional or defined
-in C:\Users\InfoBahn\eclipse-workspace\ObsquraSelenium\Smoke.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1878169648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1878169648'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at Listeners.ApiTests.mytest2API(ApiTests.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -114,7 +115,7 @@ in C:\Users\InfoBahn\eclipse-workspace\ObsquraSelenium\Smoke.xml
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>learnTestNG.WebTesting@49ec71f8</td></tr>
+<td>Listeners.ApiTests@2a798d51</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -125,10 +126,10 @@ in C:\Users\InfoBahn\eclipse-workspace\ObsquraSelenium\Smoke.xml
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='learnTestNG.MobileTesting.firstMobileTest()'><b>firstMobileTest</b><br>Test class: learnTestNG.MobileTesting</td>
+<td title='Listeners.ApiTests.mytest1API()'><b>mytest1API</b><br>Test class: Listeners.ApiTests</td>
 <td></td>
 <td>0</td>
-<td>learnTestNG.MobileTesting@77847718</td></tr>
+<td>Listeners.ApiTests@2a798d51</td></tr>
 </table><p>
 </body>
 </html>

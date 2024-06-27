@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uiComponents.RealTest">
+      <class name="Reporting.LearnReports">
         <methods>
-          <include name="myrealTest"/>
+          <include name="generateReport"/>
+          <include name="mytest1"/>
         </methods>
-      </class> <!-- uiComponents.RealTest -->
+      </class> <!-- Reporting.LearnReports -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
